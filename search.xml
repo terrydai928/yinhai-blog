@@ -23,6 +23,27 @@
     </entry>
     
     
+    
+    <entry>
+      <title>不参加VMWare的培训，如何获取VCP证书</title>
+      <link href="/post/61443.html"/>
+      <url>/post/61443.html</url>
+      
+        <content type="html"><![CDATA[<p>  VMware的认证VCP培训可不便宜哦，一门固定价格12800，培训5天，然后参加考试，通过以后即可获取相应证书。对于虚拟从业者来说VMware的VCP不是必需品，但是加分项。如果公司报销，学一下系统性的知识挺好的。但是对于这个价格来说，很多自费工程师都望而却步，摸摸自己瘦巴巴的钱包，实在无法下手。</p><p>  <code>那么有没有其他花最少的钱，拿最多的证的路径呢？</code></p><p>首先，说说有哪些前提条件：</p><p>因为VMWare的考试都是英语，所以有一定的英文基础是最好的。</p><p>有网络基础，对VMware网络、桌面、数据中心虚拟化熟悉的人且要有可以支付美金的VISA信用卡。<code>没有也没关系，一般考试中心可以帮忙代付。</code></p><p>根据VMWare官方说明，如果想要不经过培训直接参加VCP的考试，你必须持有CCNA，CCNP，或者CCIE证书，并保证这些证书是在有效期内。</p><p>  <code>没有 CCNA？ 考一个吧^_^</code></p><p>花几天时间看CCNA考试资料和考试范围，如果你有网络基础一看就会，如果你英文好，看这个得心应手。在各大论坛找找题库，做几次练习就可以约考试了</p><p>通过VCP-NV的考试后，你才可以参加VMWare的其他科目考试。</p><p>在VMWare网站注册一个账号并登录以下链接</p><p><a href="https://www.vmware.com/education-services/certification/vcp-nv-nsxt.html">https://www.vmware.com/education-services/certification/vcp-nv-nsxt.html</a></p><p>  选择VCP-NV , 在<code>Certification Path if you hold</code> 里选 <code>a Cisco Certification</code></p><p>在第二步骤，提交你的Cisco证书，等待VMWare审核，审核通过后，即可参加VCP-NV的考试。</p><p><img src="/../img/VCP/VCP1.png" alt="输入图片说明"><br><img src="/../img/VCP/VCP2.png" alt="输入图片说明"></p><p> 接下来看NSX-T 数据中心虚拟化和云桌面horizon的资料和考试范围，你如果熟悉这些产品，再者英文好，那么看这些资料就得心应手。报名VCP-NV考试，用VISA信用卡200美元。头天报名只能选择隔天早上考试，早上考完，下午五点拿证。下证效率很高<br><img src="/../img/VCP/VCP3.png" alt="输入图片说明"></p><p>考试成绩扫描歪了图片</p><p>再考VCP-DCV，总共400美元，两张证书到手<br><img src="/../img/VCP/VCP4.png" alt="输入图片说明"></p><p>如果你时间和精力，可以多考几个VMWare证书，找老板报销图片图片</p><p><code>Exam的历史记录</code><br><img src="/../img/VCP/VCP5.png" alt="输入图片说明"><br>我比较懒花了1个多月时间才考2证图片</p><p><code>证书展示：</code><br><img src="/../img/VCP/VCP6.png" alt="输入图片说明"></p><p><img src="/../img/VCP/VCP7.png" alt="输入图片说明"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> VMware </tag>
+            
+            <tag> vSphere </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>
