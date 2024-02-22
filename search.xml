@@ -112,6 +112,33 @@
     
     
     <entry>
+      <title>网络设备模拟器之H3C模拟器eNSP安装配置</title>
+      <link href="/post/2103192.html"/>
+      <url>/post/2103192.html</url>
+      
+        <content type="html"><![CDATA[<p>本人是电脑操作系统是win10企业版，不同操作系统，可能会有所不同。</p><p>目前许多人对学习华为的网络设备十分感兴趣，但安装华为模拟器eNSP是必不可少的。</p><h3 id="下载地址："><a href="#下载地址：" class="headerlink" title="下载地址："></a><strong>下载地址：</strong></h3><p>链接：<a href="https://pan.baidu.com/s/1XqSfHetChnmiaNtHpjS1oA">https://pan.baidu.com/s/1XqSfHetChnmiaNtHpjS1oA</a> 提取码：4455</p><p><strong>PS：可能部分电脑在安装之前需要提前关闭****防火墙</strong></p><h3 id="1-打开下载好的安装包"><a href="#1-打开下载好的安装包" class="headerlink" title="1.打开下载好的安装包"></a>1.打开下载好的安装包</h3><p>选择中文（简体），直接按确定即可</p><p><img src="/../img/eNSP%20Setup/eNSP%20Setup%201.png" alt="图片"></p><h3 id="2-进入安装向导"><a href="#2-进入安装向导" class="headerlink" title="2.进入安装向导"></a>2.进入安装向导</h3><p><img src="/../img/eNSP%20Setup/eNSP%20Setup%202.png" alt="图片"></p><h3 id="3-点击“我愿意接受此协议”后，点击下一步"><a href="#3-点击“我愿意接受此协议”后，点击下一步" class="headerlink" title="3.点击“我愿意接受此协议”后，点击下一步"></a>3.点击“我愿意接受此协议”后，点击下一步</h3><p><img src="/../img/eNSP%20Setup/eNSP%20Setup%203.png" alt="图片"></p><h3 id="4-选择合适的安装路径后，点击下一步"><a href="#4-选择合适的安装路径后，点击下一步" class="headerlink" title="4.选择合适的安装路径后，点击下一步"></a>4.选择合适的安装路径后，点击下一步</h3><p><img src="/../img/eNSP%20Setup/eNSP%20Setup%204.png" alt="图片"></p><p><img src="/../img/eNSP%20Setup/eNSP%20Setup%205.png" alt="图片"></p><p><img src="/../img/eNSP%20Setup/eNSP%20Setup%206.png" alt="图片"></p><h3 id="5-安装其他辅助程序：WinPcap、Wireshark、VirtualBox，点上对钩"><a href="#5-安装其他辅助程序：WinPcap、Wireshark、VirtualBox，点上对钩" class="headerlink" title="5.安装其他辅助程序：WinPcap、Wireshark、VirtualBox，点上对钩"></a>5.安装其他辅助程序：WinPcap、Wireshark、VirtualBox，点上对钩</h3><p><img src="/../img/eNSP%20Setup/eNSP%20Setup%207.png" alt="图片"></p><h3 id="6-开始愉快的安装过程"><a href="#6-开始愉快的安装过程" class="headerlink" title="6.开始愉快的安装过程"></a>6.开始愉快的安装过程</h3><p><img src="/../img/eNSP%20Setup/eNSP%20Setup%208.png" alt="图片"></p><p><img src="/../img/eNSP%20Setup/eNSP%20Setup%209.png" alt="图片"></p><h3 id="10-安装WinPcap"><a href="#10-安装WinPcap" class="headerlink" title="10.安装WinPcap"></a>10.安装WinPcap</h3><p><img src="/../img/eNSP%20Setup/eNSP%20Setup%2010.png" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2011.jpg" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2012.jpg" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2013.jpg" alt="图片"></p><h3 id="11-安装wireshark"><a href="#11-安装wireshark" class="headerlink" title="11.安装wireshark"></a>11.安装wireshark</h3><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2014.jpg" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2015.jpg" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2016.jpg" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2017.jpg" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2018.jpg" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2019.jpg" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2020.jpg" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2021.jpg" alt="图片"></p><h3 id="12-安装Oracle-VMVirtualBox"><a href="#12-安装Oracle-VMVirtualBox" class="headerlink" title="12.安装Oracle VMVirtualBox"></a>12.安装Oracle VMVirtualBox</h3><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2022.jpg" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2023.jpg" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2024.jpg" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2025.jpg" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2026.jpg" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2027.jpg" alt="图片"></p><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2028.jpg" alt="图片"></p><h3 id="13-完成安装"><a href="#13-完成安装" class="headerlink" title="13. 完成安装"></a>13. 完成安装</h3><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2029.jpg" alt="图片"></p><h3 id="注册设备："><a href="#注册设备：" class="headerlink" title="注册设备："></a>注册设备：</h3><h4 id="1-选择菜单→工具→注册设备"><a href="#1-选择菜单→工具→注册设备" class="headerlink" title="1.选择菜单→工具→注册设备"></a>1.选择菜单→工具→注册设备</h4><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%203.jpg" alt="图片"></p><h4 id="2-勾选右边的5个设备，点击注册"><a href="#2-勾选右边的5个设备，点击注册" class="headerlink" title="2.勾选右边的5个设备，点击注册"></a>2.勾选右边的5个设备，点击注册</h4><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2031.jpg" alt="图片"></p><h4 id="3-注册成功后，点击退出"><a href="#3-注册成功后，点击退出" class="headerlink" title="3.注册成功后，点击退出"></a>3.注册成功后，点击退出</h4><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2032.jpg" alt="图片"></p><h4 id="4-新建拓扑，开始使用软件"><a href="#4-新建拓扑，开始使用软件" class="headerlink" title="4.新建拓扑，开始使用软件"></a>4.新建拓扑，开始使用软件</h4><p><img src="/../img/EVE-NG%20Setup/EVE-NG%20Setup%2033.jpg" alt="图片"></p><p><strong>PS：如果部分<strong><strong>路由器</strong></strong>和交换机无法启动，报错代码：40等情况，是 Oracle VM VirtualBox不兼容的问题，可下载更新的版本：</strong></p><p>链接：<a href="https://pan.baidu.com/s/13MuqBz7u0ynSPtCVspCNJA">https://pan.baidu.com/s/13MuqBz7u0ynSPtCVspCNJA</a> 提取码：4455</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络相关 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网络 </tag>
+            
+            <tag> 模拟器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>网络模拟器之初识</title>
       <link href="/post/210315.html"/>
       <url>/post/210315.html</url>
