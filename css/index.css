@@ -1444,7 +1444,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 16px;
+  --global-font-size: 14px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #a4d8fa;
@@ -1713,6 +1713,15 @@ figure.highlight pre .tag .attr,
 figure.highlight pre .javascript .function {
   color: #c792ea;
 }
+#article-container figure.highlight .line:before {
+  display: inline-block;
+  padding: 0 6px 0 0;
+  min-width: 30px;
+  color: var(--hlnumber-color);
+  content: counter(line);
+  counter-increment: line;
+  text-align: left;
+}
 #article-container figure.highlight .line.marked {
   background-color: rgba(97,97,97,0.314);
 }
@@ -1745,10 +1754,12 @@ figure.highlight pre .javascript .function {
   background: var(--hl-bg);
   color: var(--hl-color);
   line-height: 1.6;
+  counter-reset: line;
+  white-space: pre-wrap;
 }
 #article-container pre,
 #article-container code {
-  font-size: 16px;
+  font-size: 14px;
   font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
 }
 #article-container code {
@@ -1776,7 +1787,7 @@ figure.highlight pre .javascript .function {
 #article-container figure.highlight figcaption,
 #article-container figure.highlight .caption {
   padding: 6px 0 2px 14px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1em;
 }
 #article-container figure.highlight figcaption a,
@@ -1822,7 +1833,7 @@ figure.highlight pre .javascript .function {
   height: 2.15em;
   background: var(--hltools-bg);
   color: var(--hltools-color);
-  font-size: 16px;
+  font-size: 14px;
 }
 #article-container .highlight-tools.closed ~ * {
   display: none;
