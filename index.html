@@ -53,7 +53,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-02-25 09:29:32'
+  postUpdate: '2024-02-25 09:38:12'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -210,46 +210,7 @@ VMXNET3可以直接和vmkernel通讯，执行内部数据处理；
 VMware管理员可以使用几个不同的虚拟网络适配器来附加到虚拟机。虚拟适配器属于以下两个组之一：
 
 模拟：
-这些是虚拟 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/35c92e1a" title="vCenter7（ESXi 7.0）VCSA的安装教程">vCenter7（ESXi 7.0）VCSA的安装教程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-27T00:01:00.000Z" title="发表于 2021-06-27 08:01:00">2021-06-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%99%9A%E6%8B%9F%E5%8C%96/">虚拟化</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/VMware/">VMware</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/ESXi/">ESXi</a></span></div><div class="content">
-1、下载VCSA iso安装镜像，请公众号后台回复 ESXi7.0 获取下载链接
-2、创建DNS记录。我这里计划vc地址为 venter.dns.test 192.168.64.8
-
-如果不会，请见本公众号文章《Windows Server 2019 搭建DNS服务器》
-3、使用文件浏览器打开VCSA或者加载到虚拟光驱
-![图片]../img/VCSA7.0%20Setup/VCSA7.0%20Setup%204.png)
-打开ui installer
-
-双击即开始安装
-点击右上角语言，切换成中文
-
-选择安装
-
-
-
-输入ESXI的地址
-
-
-
-根据业务大小，选择
-
-
-
-确认无误之后，点击完成
-
-等待部署
-
-
-出现了报错，不过没关系，先下载安装程序日志，看一下，也可以去 5480进行部署
-在日志中，发现域名无法解析，所以没法安装。
-
-
-可能是vc的地址网络不通，突然想到，网络选择错误，不应该选默认的vm network
-打开esxi web页面，找到vc虚拟机，将其关机，然后把对应的网卡改一下
-
-网路通了
-
-去5480 进行下一步
-打开vc的地址：5480 我这里是https://vce ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/210801" title="Windows Server 2019 搭建DNS服务器">Windows Server 2019 搭建DNS服务器</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-27T00:01:00.000Z" title="发表于 2021-06-27 08:01:00">2021-06-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%99%9A%E6%8B%9F%E5%8C%96/">虚拟化</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/VMware/">VMware</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Windows-Server/">Windows Server</a></span></div><div class="content">  
+这些是虚拟 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/210801" title="Windows Server 2019 搭建DNS服务器">Windows Server 2019 搭建DNS服务器</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-27T00:01:00.000Z" title="发表于 2021-06-27 08:01:00">2021-06-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%99%9A%E6%8B%9F%E5%8C%96/">虚拟化</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/VMware/">VMware</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Windows-Server/">Windows Server</a></span></div><div class="content">  
 DNS服务器需要固定IP，这里的IP为192.168.64.238/24
 一、基础安装打开服务器管理器-管理-添加角色和功能
 
@@ -301,7 +262,46 @@ DNS服务器需要固定IP，这里的IP为192.168.64.238/24
 
 打开cmd，使用命令行，输入nslookup 可以看到下面找到了IP
 
-使用命令nslookup -qt=ptr 可以解析到vcenter.dns.t ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/210626" title="虚拟机VMware vSphere ESXi 7.0安装配置详细教程(附下载)">虚拟机VMware vSphere ESXi 7.0安装配置详细教程(附下载)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-26T00:00:00.000Z" title="发表于 2021-06-26 08:00:00">2021-06-26</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%99%9A%E6%8B%9F%E5%8C%96/">虚拟化</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/VMware/">VMware</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/vSphere/">vSphere</a></span></div><div class="content">VMware vSphere是一套业内最完整最强健的虚拟化平台。创建资源池来管理计算、 网络和存储容量与易用性，并提供最高水平的服务，每个应用程序工作负载以最低的总成本。VSphere 取决于世界上要求最苛刻的数据中心虚拟化您业务关键型应用程序为空前的灵活性和可靠性。
+使用命令nslookup -qt=ptr 可以解析到vcenter.dns.t ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/35c92e1a" title="vCenter7（ESXi 7.0）VCSA的安装教程">vCenter7（ESXi 7.0）VCSA的安装教程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-27T00:01:00.000Z" title="发表于 2021-06-27 08:01:00">2021-06-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%99%9A%E6%8B%9F%E5%8C%96/">虚拟化</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/VMware/">VMware</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/ESXi/">ESXi</a></span></div><div class="content">
+1、下载VCSA iso安装镜像，请公众号后台回复 ESXi7.0 获取下载链接
+2、创建DNS记录。我这里计划vc地址为 venter.dns.test 192.168.64.8
+
+如果不会，请见本公众号文章《Windows Server 2019 搭建DNS服务器》
+3、使用文件浏览器打开VCSA或者加载到虚拟光驱
+![图片]../img/VCSA7.0%20Setup/VCSA7.0%20Setup%204.png)
+打开ui installer
+
+双击即开始安装
+点击右上角语言，切换成中文
+
+选择安装
+
+
+
+输入ESXI的地址
+
+
+
+根据业务大小，选择
+
+
+
+确认无误之后，点击完成
+
+等待部署
+
+
+出现了报错，不过没关系，先下载安装程序日志，看一下，也可以去 5480进行部署
+在日志中，发现域名无法解析，所以没法安装。
+
+
+可能是vc的地址网络不通，突然想到，网络选择错误，不应该选默认的vm network
+打开esxi web页面，找到vc虚拟机，将其关机，然后把对应的网卡改一下
+
+网路通了
+
+去5480 进行下一步
+打开vc的地址：5480 我这里是https://vce ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/210626" title="虚拟机VMware vSphere ESXi 7.0安装配置详细教程(附下载)">虚拟机VMware vSphere ESXi 7.0安装配置详细教程(附下载)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-26T00:00:00.000Z" title="发表于 2021-06-26 08:00:00">2021-06-26</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%99%9A%E6%8B%9F%E5%8C%96/">虚拟化</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/VMware/">VMware</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/vSphere/">vSphere</a></span></div><div class="content">VMware vSphere是一套业内最完整最强健的虚拟化平台。创建资源池来管理计算、 网络和存储容量与易用性，并提供最高水平的服务，每个应用程序工作负载以最低的总成本。VSphere 取决于世界上要求最苛刻的数据中心虚拟化您业务关键型应用程序为空前的灵活性和可靠性。
 说明：
 2020年3月10日，VMware 发布了vSphere 7，无论是安装ESXi 7.0，还是vCenter Server Appliance，与vSphere 6.7都非常相似或者说相同，用安装vSphere 6.7的方法安装7.0就行。无论是在Workstation的虚拟机安装ESXi，还是使用物理机安装ESXi，都很容易。但ESXi已经放弃了对一些网卡的支持，如果以前在ESXi 6.0、6.5、6.7中能正常使用的网卡，在7.0中可能已经不再受到支持。
 安装方法
@@ -332,7 +332,7 @@ EVE-NG社区版安装 最新版v2.0.3-112 (11 January 2021)
             </div>
             <ul class="card-category-list" id="aside-cat-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><span class="card-category-list-name">学习笔记</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"><span class="card-category-list-name">网站建设</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3/"><span class="card-category-list-name">网络相关</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%99%9A%E6%8B%9F%E5%8C%96/"><span class="card-category-list-name">虚拟化</span><span class="card-category-list-count">7</span></a></li>
-            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/vSphere/" style="font-size: 1.37em; color: #99a4b2">vSphere</a> <a href="/tags/butterfly/" style="font-size: 1.23em; color: #999ea6">butterfly</a> <a href="/tags/hexo/" style="font-size: 1.37em; color: #99a4b2">hexo</a> <a href="/tags/Markdown/" style="font-size: 1.1em; color: #999">Markdown</a> <a href="/tags/Workstation/" style="font-size: 1.1em; color: #999">Workstation</a> <a href="/tags/Chart/" style="font-size: 1.1em; color: #999">Chart</a> <a href="/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8/" style="font-size: 1.37em; color: #99a4b2">模拟器</a> <a href="/tags/Windows-Server/" style="font-size: 1.1em; color: #999">Windows Server</a> <a href="/tags/VMware/" style="font-size: 1.5em; color: #99a9bf">VMware</a> <a href="/tags/Echarts/" style="font-size: 1.1em; color: #999">Echarts</a> <a href="/tags/%E7%BD%91%E7%BB%9C/" style="font-size: 1.37em; color: #99a4b2">网络</a> <a href="/tags/ESXi/" style="font-size: 1.1em; color: #999">ESXi</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">二月 2024</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/07/"><span class="card-archive-list-date">七月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/06/"><span class="card-archive-list-date">六月 2021</span><span class="card-archive-list-count">6</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/03/"><span class="card-archive-list-date">三月 2021</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/08/"><span class="card-archive-list-date">八月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/05/"><span class="card-archive-list-date">五月 2020</span><span class="card-archive-list-count">3</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">17</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2020-09-09T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">31.5k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-02-25T01:29:32.755Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By Terry Dai</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, 欢迎来到我的 <a href="https://www.yinhai-blog.com/">博客</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.12.0"></script><script src="/js/main.js?v=4.12.0"></script><script src="/js/tw_cn.js?v=4.12.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/VMware/" style="font-size: 1.5em; color: #99a9bf">VMware</a> <a href="/tags/Echarts/" style="font-size: 1.1em; color: #999">Echarts</a> <a href="/tags/Windows-Server/" style="font-size: 1.1em; color: #999">Windows Server</a> <a href="/tags/Workstation/" style="font-size: 1.1em; color: #999">Workstation</a> <a href="/tags/butterfly/" style="font-size: 1.23em; color: #999ea6">butterfly</a> <a href="/tags/vSphere/" style="font-size: 1.37em; color: #99a4b2">vSphere</a> <a href="/tags/Markdown/" style="font-size: 1.1em; color: #999">Markdown</a> <a href="/tags/Chart/" style="font-size: 1.1em; color: #999">Chart</a> <a href="/tags/hexo/" style="font-size: 1.37em; color: #99a4b2">hexo</a> <a href="/tags/%E7%BD%91%E7%BB%9C/" style="font-size: 1.37em; color: #99a4b2">网络</a> <a href="/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8/" style="font-size: 1.37em; color: #99a4b2">模拟器</a> <a href="/tags/ESXi/" style="font-size: 1.1em; color: #999">ESXi</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">二月 2024</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/07/"><span class="card-archive-list-date">七月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/06/"><span class="card-archive-list-date">六月 2021</span><span class="card-archive-list-count">6</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/03/"><span class="card-archive-list-date">三月 2021</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/08/"><span class="card-archive-list-date">八月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/05/"><span class="card-archive-list-date">五月 2020</span><span class="card-archive-list-count">3</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">17</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2020-09-09T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">31.5k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-02-25T01:38:11.928Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By Terry Dai</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, 欢迎来到我的 <a href="https://www.yinhai-blog.com/">博客</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.12.0"></script><script src="/js/main.js?v=4.12.0"></script><script src="/js/tw_cn.js?v=4.12.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
   init: (str) => {
     window.typed = new Typed('#subtitle', Object.assign({
       strings: str,
